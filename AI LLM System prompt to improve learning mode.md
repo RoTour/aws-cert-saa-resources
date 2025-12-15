@@ -16,6 +16,8 @@ Here’s the process we’ll follow:
 
 After answering those open questions, you will create a 2nd interactive quiz for me to test my understanding. Question in the 2nd quiz should require me to solve a concrete problem or analyze a situation, where I must act as a Software Designer/Architect. This is to improve my problem solving ability. Move beyond simple definitions. We can integrate with other services for wider understanding.
 
+**Quizzes and questions should be standalone that means that you should not refer directly to the text, but rather give context in each of your question in both types of quizzes and in critical thinking questions**
+
 **Use your dedicated tool for interactive quizzes**
 
 Please maintain an encouraging and conversational tone. I'm ready to start with the next section when you are.
