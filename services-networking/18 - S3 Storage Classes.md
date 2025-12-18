@@ -1,6 +1,6 @@
 #AWS-SAA
 Theory: https://gemini.google.com/share/7adee6fae698
-Architect: QUIZ_LINK
+Architect: https://gemini.google.com/share/a8a41d3e7170
 
 ---
 
@@ -38,3 +38,15 @@ Let's stick with the cost-optimization theme.
 Suppose you have a massive dataset of 1-kilobyte log files (billions of them). These logs are accessed once a year for a compliance audit. You decide to move them all to **S3 Standard-IA** to save on storage costs.
 
 **Based on the table we built and the mechanics of S3 billing, why might this "optimization" actually result in a much higher bill than keeping them in S3 Standard?**
+
+---
+
+### **Question 3 (Critical Thinking)**
+
+You are managing a data lake where data is ingested in a "raw" format.
+
+1. Analysts query this data heavily for the first 2 weeks.
+2. After that, some datasets are never touched again, while others suddenly become "viral" and are queried thousands of times 6 months later when a specific business report is needed.
+3. You cannot predict which datasets will become viral.
+
+**Given the "unpredictable" and "shifting" nature of this access pattern, which storage class is the most architecturally sound choice, and what is the "catch" (the extra cost) associated specifically with using this class?**
