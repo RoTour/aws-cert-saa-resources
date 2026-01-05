@@ -1,6 +1,6 @@
 #AWS-SAA
 Theory: https://gemini.google.com/share/24804b295f80
-Architect: QUIZ_LINK
+Architect: https://gemini.google.com/share/8c1afc28f77f
 
 ---
 
