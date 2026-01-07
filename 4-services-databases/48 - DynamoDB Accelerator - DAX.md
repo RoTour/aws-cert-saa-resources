@@ -1,6 +1,6 @@
 #AWS-SAA
 Theory: https://gemini.google.com/share/85d2a20fec15
-Architect: QUIZ_LINK
+Architect: https://gemini.google.com/share/af7903584679
 
 ---
 
@@ -17,5 +17,23 @@ Imagine you have an e-commerce application.
 
 ---
 
-**Question**
-text
+### Critical Thinking Question #2
+
+Building on that discussion about consistency:
+
+DynamoDB allows developers to request **Strongly Consistent Reads** (guaranteeing you get the absolute latest data committed to the database). DAX, however, is an _eventually consistent_ cache by default.
+
+**Question:** If your application uses the **DAX client** and issues a `GetItem` request specifically asking for a **Strongly Consistent Read**:
+1. Does DAX serve this request from its cache?
+2. If not, how does DAX handle the request?
+
+
+---
+
+### Critical Thinking Question #3
+
+The resource emphasized that DAX is designed to boost **read performance** (up to 10x) and reduce **read load** on DynamoDB. It also mentioned the "write-through" mechanism where data is written to both the cache and the database.
+
+**Question:** Consider an application with a **Write-Heavy** workload (e.g., an IoT sensor logging temperature every second, but that data is rarely read, or perhaps only read once significantly later).
+
+Would adding DAX to this specific architecture **improve**, **degrade**, or have **no impact** on the application's overall performance (latency and throughput)?
